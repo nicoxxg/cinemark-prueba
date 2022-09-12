@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cinemark</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/db55518b9d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg container ">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+        <!-- botones -->
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <div class="anc navbar-nav me-auto mb-2 mb-lg-0 col-8 d-flex justify-content-center">
+
+                    <a href="" class="btnc">PELICULAS</a>
+
+                    <a href="" class="btnc">CANDY</a>
+
+                    <a href="" class="btnc">CINE FAN</a>
+
+                </div>
+
+                <form class="d-flex" role="search">
+                    <button class=" " type="submit">
+                        <img src="./img/search-outline.png" alt="">
+                    </button>
+                    
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- nav -->
+    
+
+    <!-- carrousel -->
+        <header>
+            <div id="carouselExampleIndicators" class="carousel slide container" data-bs-ride="true">
+                <div class="carousel-indicators botoncitos">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="">
+                            <img src="./img/431.png" class="d-block w-100" alt="...">
+                        </a>
+                    
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/459.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/461.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                
+            </div>
+        </header>
+
+        <div class="contenedor-selec container d-flex align-items-center">
+            <form>
+                <select name=" selecciona un cine" class="selecciona">
+                    
+                    <option value="">HOYTS ABASTO</option>
+                    <option value="">CINEMARK AVELLANEDA</option>
+                    <option value="">CINEMARK CABALLITO</option>
+                    <option value="">HOYTS DOT</option>
+                    <option value="">CINEMARK MALVINAS ARGENTINAS</option>
+                    <option value="">CINEMARK MENSOZA</option>
+                    <option value="">HOYTS MORENO</option>
+                    <option value="">HOYTS MORON</option>
+                    <option value="">CONEMARK NEUQUEN</option>
+                    <option value="">HOYTS PATIO OLMOS</option>
+                    <option value="">CINEMARK PUERTO MADERO</option>
+                    <option value="">HOYTS QUILMES</option>
+                    <option value="">HOYTS ROSARIO</option>
+                    <option value="">HOYTS SALTA</option>
+                    <option value="">CINEMARK SALTA</option>
+                    <option value="">CINEMARK SAN JUSTO</option>
+                    <option value="">CINEMARK SANTA FE</option>
+                    <option value="">CINEMARK SOLEIL</option>
+                    <option value="">HOYTS TEMPERLEY</option>
+                    <option value="">CONEMARK TORTUGAS</option>
+                    <option value="">HOYTS UNICENTER</option>
+                    
+                </select>
+                <select name=" selecciona una pelicula" class="selecciona">
+                    <option value="">CADABER EXQUISITO</option>
+                    <option value="">DR STRANGE EN EL MULTIVERSO</option>
+                    <option value="">EL HOMBRE DEL NORTE </option>
+                    <option value="">GEMELOS SINIESTROS</option>
+                    <option value="">JURASSIC WORLD DOMINIO</option>
+                    <option value=""> LIGHTYEAR</option>
+                    <option value="">SHIRLEY</option>
+                    <option value="">SONIC 2</option>
+                    <option value="">TODO EN TODA PARTE AL MISMO TIEMPO</option>
+                    <option value=""> TOP GUN MAVERIOK</option>
+                </select>
+            </form>
+        </div>
+
+        <div class="peliculas container ">
+            <div class="subtitulo d-flex container justify-content-center justify-content-between my-3">
+                <h2>PELICULAS</h2>
+
+                <a href="" class="ppc">
+                    PELICULAS POR CATEGORIA
+                </a>
+            </div>
+
+            <div class="contenedor-estrenos d-flex flex-wrap">
+
+                <div class="card" style="width: 15rem; margin-left:1rem;">
+                    <a href="" class="titulos-a">
+                        <img src="./img/peliculacadaver.jpg" class="card-img-top" alt="">
+                    
+                        <div class="card-body titulos">
+                            <p class="card-text">
+                                CADAVER EXQUISITO
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card" style="width: 15rem; margin-left:1rem;">
+                    <a href="" class="titulos-a">
+                        <img src="./img/wanda.jpg" class="card-img-top" alt="">
+                    
+                        <div class="card-body">
+                            <p class="card-text titulos">
+                                DR STRANGE EN EL MULTIVERSO
+                            </p>
+                        
+                        </div>
+                    </a>
+                </div>
+
+
+                <!-- <div class="card" style="width: 15rem; margin-left: 1rem;">
+                        <a href="" class="titulos-a">
+                            <img src="" class="card-img-top" alt="">
+                        
+                            <div class="card-body">
+                                <p class="card-text TITULO5">
+                                    
+                                </p>
+                            
+                            </div>
+                        </a>
+                    </div> -->
+                <div class="card" style="width: 15rem; margin-left:1rem;">
+                    <a href="" class="titulos-a">
+                        <img src="./img/GEMELO.jpg" class="card-img-top" alt="">
+                    
+                        <div class="card-body">
+                            <p class="card-text titulos">
+                                GEMELO SINIESTRO
+                            </p>
+                        
+                        </div>
+                    </a>
+                </div>
+                <div class="card" style="width: 15rem; margin-left:1rem;">
+                    <a href="" class="titulos-a">
+                        <img src="./img/jurassic_world.jpg" class="card-img-top" alt="">
+                    
+                        <div class="card-body">
+                            <p class="card-text titulos">
+                                JURASSIC WORLD DOMINIO
+                            </p>
+                            <!-- estreno -->
+                            <p class="card-text estreno">
+                                ESTRENO
+                            </p>
+                        
+                        </div>
+                    </a>
+                </div>
+                <div class="card" style="width: 15rem; margin-left:1rem;">
+                    <a href="" class="titulos-a">
+                        <img src="./img/lightyear.jpg" class="card-img-top" alt="">
+                    
+                        <div class="card-body">
+                            <p class="card-text titulos">
+                                LIGHTYEAR
+                            </p>
+                            <!-- venta anticipada -->
+                            <p class="card-text anticip">
+                                VENTA ANTICIPADA
+                            </p>
+                        
+                        </div>
+                    </a>
+                </div>
+                <div class="card" style="width: 15rem; margin-left:1rem;">
+                    <a href="" class="titulos-a">
+                        <img src="./img/shirley.jpg" class="card-img-top" alt="">
+                    
+                        <div class="card-body">
+                            <p class="card-text titulos">
+                                SHIRLEY
+                            </p>
+                            <p class="card-text estreno">
+                                ESTRENO
+                            </p>
+                        
+                        </div>
+                    </a>
+                </div>
+                <div class="card" style="width: 15rem; margin-left: 1rem;">
+                    <a href="" class="titulos-a">
+                        <img src="./img/sonic2.jpg" class="card-img-top" alt="">
+                    
+                        <div class="card-body">
+                            <p class="card-text titulos">
+                                SONIC 2
+                            </p>
+                        
+                        </div>
+                    </a>
+                </div>
+                <div class="card" style="width: 15rem; margin-left:1rem;">
+                    <a href="" class="titulos-a">
+                        <img src="./img/todoent.jpg" class="card-img-top" alt="">
+                    
+                        <div class="card-body">
+                            <p class="card-text titulos">
+                                RODO EN TODAS PARTES AL MISMO TIEMPO
+                            </p>
+                        
+                        </div>
+                    </a>
+                </div>
+                <div class="card" style="width: 15rem; margin-left: 1rem;">
+                    <a href="" class="titulos-a">
+                        <img src="./img/topgun.jpg" class="card-img-top" alt="">
+                    
+                        <div class="card-body">
+                            <p class="card-text titulos">
+                                TOP GUN MAVERICK
+                            </p>
+                        
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+
+
+        <div class="proximamente-c container">
+            <div class="subtitulo my-3">
+                <h2>PRÓXIMAMENTE</h2>
+            </div>
+            <div class="prox d-flex flex-wrap">
+                    <div class="card" style="width: 15rem; margin-left:1rem;">
+                        <a href="" class="titulos-a">
+                            <img src="./img/GEMELO.jpg" class="card-img-top" alt="">
+                        
+                            <div class="card-body">
+                                <p class="card-text titulos">
+                                    GEMELO SINIESTRO
+                                </p>
+                                <p class="card-text estreno">
+                                    09/06/20200
+                                </p>
+                            
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card" style="width: 15rem; margin-left:1rem;">
+                        <a href="" class="titulos-a">
+                            <img src="./img/todoent.jpg" class="card-img-top" alt="">
+                        
+                            <div class="card-body">
+                                <p class="card-text titulos">
+                                    TODO EN TODAS PARTES AL MISMO TIEMPO
+                                </p>
+                                <p class="card-text estreno">
+                                    09/06/2022
+                                </p>
+                            
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card" style="width: 15rem; margin-left:1rem;">
+                        <a href="" class="titulos-a">
+                            <img src="./img/ult-j.jpg" class="card-img-top" alt="">
+                        
+                            <div class="card-body">
+                                <p class="card-text titulos">
+                                    EL ULTIMO JUEGO
+                                </p>
+                                <p class="card-text estreno">
+                                    16/06/2022
+                                </p>
+                            
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card" style="width: 15rem; margin-left:1rem;">
+                        <a href="" class="titulos-a">
+                            <img src="./img/lightyear.jpg" class="card-img-top" alt="">
+                        
+                            <div class="card-body">
+                                <p class="card-text titulos">
+                                    LIGHTYEAR
+                                </p>
+                                <p class="card-text estreno">
+                                    16/06/2022
+                                </p>
+                            
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card" style="width: 15rem; margin-left:1rem;">
+                        <a href="" class="titulos-a">
+                            <img src="./img/dogg.jpg" class="card-img-top" alt="">
+                        
+                            <div class="card-body">
+                                <p class="card-text titulos">
+                                    DOG UN VIAJE SALVAJE
+                                </p>
+                                <p class="card-text estreno">
+                                    23/06/2022
+                                </p>
+                            
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card" style="width: 15rem; margin-left:1rem;">
+                        <a href="" class="titulos-a">
+                            <img src="./img/tel.jpg" class="card-img-top" alt="">
+                        
+                            <div class="card-body">
+                                <p class="card-text titulos">
+                                    EL TELEFONO NEGRO
+                                </p>
+                                <p class="card-text estreno">
+                                    23/06/2022
+                                </p>
+                            
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card" style="width: 15rem; margin-left:1rem;">
+                        <a href="" class="titulos-a">
+                            <img src="./img/minion.jpg" class="card-img-top" alt="">
+                        
+                            <div class="card-body">
+                                <p class="card-text titulos">
+                                    MINIONS 2
+                                </p>
+                                <p class="card-text estreno">
+                                    30/06/2022
+                                </p>
+                            
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card" style="width: 15rem; margin-left:1rem;">
+                        <a href="" class="titulos-a">
+                            <img src="./img/thor.jpg" class="card-img-top" alt="">
+                        
+                            <div class="card-body">
+                                <p class="card-text titulos">
+                                    THOR AMOR Y GUERRA
+                                </p>
+                                <p class="card-text estreno">
+                                    07/07/2022
+                                </p>
+                            
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card" style="width: 15rem; margin-left:1rem;">
+                        <a href="" class="titulos-a">
+                            <img src="./img/elvis.jpg" class="card-img-top" alt="">
+                        
+                            <div class="card-body">
+                                <p class="card-text titulos">
+                                    ELVIS
+                                </p>
+                                <p class="card-text estreno">
+                                    14/07/2022
+                                </p>
+                            
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card" style="width: 15rem; margin-left:1rem;">
+                        <a href="" class="titulos-a">
+                            <img src="./img/nop.jpg" class="card-img-top" alt="">
+                        
+                            <div class="card-body">
+                                <p class="card-text titulos">
+                                    ¡NOP!
+                                </p>
+                                <p class="card-text estreno">
+                                    21/07/2022
+                                </p>
+                            
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card" style="width: 15rem; margin-left:1rem;">
+                        <a href="" class="titulos-a">
+                            <img src="./img/buenasuerte.jpg" class="card-img-top" alt="">
+                        
+                            <div class="card-body">
+                                <p class="card-text titulos">
+                                    BUENA SUERTE LEO GRANDE 
+                                </p>
+                                <p class="card-text estreno">
+                                    20/07/2023
+                                </p>
+                            
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card" style="width: 15rem; margin-left:1rem;">
+                        <a href="" class="titulos-a">
+                            <img src="./img/mascotas.jpg" class="card-img-top" alt="">
+                        
+                            <div class="card-body">
+                                <p class="card-text titulos">
+                                    DC LIGA DE SUPER MASCOTAS
+                                </p>
+                                <p class="card-text estreno">
+                                    28/07/2022
+                                </p>
+                            
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card" style="width: 15rem; margin-left:1rem;">
+                        <a href="" class="titulos-a">
+                            <img src="./img/escalera.jpg" class="card-img-top" alt="">
+                        
+                            <div class="card-body">
+                                <p class="card-text titulos">
+                                    ESCALERA AL INFIERNO
+                                </p>
+                                <p class="card-text estreno">
+                                    04/08/2022
+                                </p>
+                            
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card" style="width: 15rem; margin-left:1rem;">
+                        <a href="" class="titulos-a">
+                            <img src="./img/trenbala.jpg" class="card-img-top" alt="">
+                        
+                            <div class="card-body">
+                                <p class="card-text titulos">
+                                    TREN BALA
+                                </p>
+                                <p class="card-text estreno">
+                                    04/08/2022
+                                </p>
+                            
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card" style="width: 15rem; margin-left:1rem;">
+                        <a href="" class="titulos-a">
+                            <img src="./img/afteramor.jpg" class="card-img-top" alt="">
+                        
+                            <div class="card-body">
+                                <p class="card-text titulos">
+                                    AFTER AMOR INFINITO
+                                </p>
+                                <p class="card-text estreno">
+                                    25/08/2022
+                                </p>
+                            
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card" style="width: 15rem; margin-left:1rem;">
+                        <a href="" class="titulos-a">
+                            <img src="./img/superquien.jpg" class="card-img-top" alt="">
+                        
+                            <div class="card-body">
+                                <p class="card-text titulos">
+                                    SUPER ¿QUIEN?
+                                </p>
+                                <p class="card-text estreno">
+                                    22/09/2022
+                                </p>
+                            
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card" style="width: 15rem; margin-left:1rem;">
+                        <a href="" class="titulos-a">
+                            <img src="./img/avatar.jpg" class="card-img-top" alt="">
+                        
+                            <div class="card-body">
+                                <p class="card-text titulos">
+                                    AVATAR EL CAMINO AL AGUA
+                                </p>
+                                <p class="card-text estreno">
+                                    15/12/2022
+                                </p>
+                            
+                            </div>
+                        </a>
+                    </div>
+                    </div>
+            </div>
+        </div>
+
+
+    
+
+
+    <footer>
+        <div class="contenedor-footer">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+
+
+
+
+
+
+        </div>
+    </footer>    
+
+    <!-- <div id="carouselExampleIndicators container" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/431.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/459.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/461.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div> -->
+
+    <!-- estrenos -->
+    
+    <!-- <div class="card" style="width: 18rem;">
+        <a href="">
+            <img src="" class="card-img-top" alt="">
+        
+            <div class="card-body">
+                <p class="card-text">
+                    
+                </p>
+                <p class="card-text">
+
+                </p>
+            
+            </div>
+        </a>
+    </div> -->
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

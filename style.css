@@ -1,0 +1,88 @@
+*{
+    background-color: black !important;
+    color: white !important;
+    box-sizing: border-box;     margin: 0;     padding: 0;
+}
+.navegador{
+    background-color: black !important;
+}
+.mmmenu{
+    background-color: rgb(28,28,28) !important;
+    display: flex;
+    
+
+}
+.lis{
+    background-color: rgb(28,28,28) !important;
+}
+.btnc{
+    font-size: 1.3rem !important;
+    margin: 1rem;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(70, 69, 69) !important;
+    
+}
+.btnc:hover{
+    color: white !important;
+}
+.botoncitos{
+    background-color: rgba(126, 121, 121, 0.253) !important;
+    
+}
+.botoncitos>button{
+    color: aliceblue !important;
+}
+
+.selecciona{
+    border-radius: 10px;
+    height: 3rem;
+    margin-left: 1rem;
+    border: 3px solid white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.9rem;
+}
+.ppc{
+    background-color: rgba(126, 121, 121, 0.253) !important;
+    color: rgb(146, 144, 144) !important;
+    display: flex;
+    width: 13rem;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+.ppc:hover{
+    color: white !important;
+}
+.peliculas{
+    border-bottom: 1px solid rgb(146, 144, 144);
+}
+.titulos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 2rem;
+    /* font-size: 0.7rem; */
+
+}
+.titulos-a{
+    text-decoration: none;
+}
+.estreno{
+    display: flex;
+    justify-content: center;
+    background-color: white !important;
+    color: black !important;
+    font-size: 0.8rem;
+    font-family: 'Oswald', sans-serif;
+}
+.anticip{
+    display: flex;
+    justify-content: center;
+    color: red !important;
+}
+                        
